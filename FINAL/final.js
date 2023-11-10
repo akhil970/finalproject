@@ -22,3 +22,26 @@ $(document).ready(function () {
   var currentYear = new Date().getFullYear();
   $('.copyright-year').text(currentYear);
 });
+
+//services page animation
+$(document).ready(function () {
+  function animateServicesOnScroll() {
+    var services = $('.service-item');
+    var windowHeight = $(window).height();
+    $(window).scroll(function () {
+      var scrollPos = $(window).scrollTop() + windowHeight;
+      services.each(function () {
+        var offset = $(this).offset().top;
+        if (scrollPos > offset) {
+          $(this).animate({ opacity: 1 }, 100);
+        }
+      });
+    });
+  }
+  animateServicesOnScroll();
+});
+
+
+
+
+

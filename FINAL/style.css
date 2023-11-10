@@ -89,3 +89,114 @@ body {
 .box:hover {
     box-shadow: rgb(13, 71, 104);
 }
+
+/*About page styles*/
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar-toggler{
+    float: right;
+    margin-left: 400px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.lead{
+    font-family: Lucida Calligraphy;
+
+}
+
+.experience-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+
+  .experience-item {
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .experience-item:last-child {
+    border-bottom: none;
+  }
+
+  @media (max-width: 768px) {
+    .experience-item {
+      padding: 15px;
+    }
+  }
+/*professional experience styles*/
+.container {
+    margin-top: 50px;
+  }
+  
+  .experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .experience-row {
+    /*display: none;*/
+    margin-bottom: 20px;
+  }
+  
+  .company-logo img {
+    width: 100%; /* Ensure the image occupies the entire width of its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100px; /* Set a maximum width if needed */
+    border-radius: 10px; /* Add border-radius for a square shape */
+  }
+  
+  .company-details {
+    padding-left: 20px; /* Add some spacing between the logo and details */
+  }
+
+  .company-name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .duration {
+    font-size: 0.9em;
+    color: #777;
+  }
+
+  .role {
+    font-size: 1em;
+  }
+
+  /*about footer*/
+  .aboutFooter {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px;
+    height: 50 px;
+  }
+  
+  .aboutCopyright {
+    font-size: 0.9em;
+  }
+/*Services page styles*/
+
+
+
+/*Contact page styles*/

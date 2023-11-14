@@ -195,8 +195,70 @@ nav a {
   .aboutCopyright {
     font-size: 0.9em;
   }
-/*Services page styles*/
 
+/* Services page styles */
 
+.servicesContainer {
+  margin-top: 50px;
+}
+
+.service-item {
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px; 
+}
+
+.service-item img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.service-text {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.underline-link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #007bff;
+}
 
 /*Contact page styles*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+#contactForm {
+  max-width: 400px;
+}
+
+.social-media-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.social-media-link {
+  display: block;
+  text-align: center;
+}
+
+.social-media-link img {
+  width: 100%;
+  max-width: 150px; /* Adjust the maximum width of social media icons */
+}
+
+#descText{
+  font-weight: bold;
+}
